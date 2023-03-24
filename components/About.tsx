@@ -6,7 +6,7 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <div className="h-screen flex flex-col relative text-center md:text-left  md:flex-row max-w-7xl justify-evenly items-center mx-auto px-10">
-      <h2 className="absolute top-24 uppercase tracking-[20px] text-2xl text-gray-500">
+      <h2 className="absolute top-24 uppercase tracking-[20px] text-2xl text-gray-500 md:pl-0 pl-4">
         About
       </h2>
 
@@ -23,7 +23,7 @@ const About = (props: Props) => {
           duration: 1.2,
         }}
         src="./images/xavy.jpg"
-        className="-mb-20 md:mb-0 mt-[100px] md:mt-0   flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:h-96 md:w-64 xl:w-[400px] xl:h-[450px]"
+        className="-mb-20 md:mb-0 mt-[70px] md:mt-0   flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:h-96 md:w-64 xl:w-[400px] xl:h-[450px]"
       />
       <div className="space-y-4 px-0 md:px-10  mt-[10px]">
         <h4 className=" text-2xl md:text-3xl font-semibold">

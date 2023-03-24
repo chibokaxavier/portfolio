@@ -20,7 +20,10 @@ export default function Home() {
           <About/>
         </section>
         {/* experience */}
+        <section className="snap-start"  id="skills">
         <Skills/>
+        </section>
+        
         {/* projects */}
         {/* contact me */}
       </div>
