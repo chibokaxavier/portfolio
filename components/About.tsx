@@ -27,7 +27,7 @@ const About = (props: Props) => {
       />
       <div className="space-y-10 px-0 md:px-10 mt-20">
         <h4 className="text-3xl font-semibold">
-          Here's a <span className="underline decoration-[orange]">little</span>  Background
+          Here is a <span className="underline decoration-[orange]">little</span>  Background
         </h4>
         <p className="text-base"> I am a passionate performance-driven Frontend Developer who has knowledge on HTML CSS, Javascript and Typescript. My personal strengths Includes resilience,problem-solving,and the ability to work under pressure. I welcome positively impactful opportunities where I can explore technology and business in a progress-oriented organization that welcomes and nurtures talent.I have an excellent reputation for my integrity, productivity and leadership ability.</p>
       </div>
