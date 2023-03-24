@@ -25,7 +25,7 @@ export default function Home() {
         <Skills/>
         </section>
         
-        <section className="snap-center" id="">
+        <section className="snap-start" id="projects">
           <Projects/>
         </section>
         {/* contact me */}
