@@ -28,7 +28,7 @@ const Skills = (props: Props) => {
       }}
       transition={{
         duration: 1.5,
-      }}className="grid grid-cols-3 gap-5">
+      }}className="grid grid-cols-3 gap-5 md:pt-[100px]">
         <Skill />
         <Skill />
         <Skill />
