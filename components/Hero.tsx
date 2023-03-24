@@ -23,10 +23,10 @@ const Hero = (props: Props) => {
         alt=""
       />
       <div className="z-20">
-        <h2 className="tracking-[15px] text-sm pb-2 uppercase text-gray-500">
+        <h2 className="tracking-[10px] md:tracking-[15px] text-sm pb-2 uppercase text-gray-500">
           SOFTWARE ENGINEER
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-3xl lg:text-6xl font-semibold px-10">
           <span className="mr-3"> {text}</span>
           <Cursor cursorColor="white" />
         </h1>
@@ -35,10 +35,10 @@ const Hero = (props: Props) => {
             {" "}
             <button className="heroButton">About</button>
           </Link>
-          <Link href="#experience">
+          {/* <Link href="#experience">
             {" "}
             <button className="heroButton">Experience</button>
-          </Link>
+          </Link> */}
           <Link href="#skills">
             {" "}
             <button className="heroButton">Skills</button>
