@@ -23,23 +23,28 @@ const ContactMe = (props: Props) => {
           </div>
           <div className="flex items-center space-x-5 justify-center  ">
             <EnvelopeIcon className="h-7 w-7 animate-pulse text-[#f7ab0a]  " />
-            <p className="font-semibold text-xl md:text-4xl">chibokaxavier@gmail.com</p>
+            <p className="font-semibold text-xl md:text-4xl">
+              chibokaxavier@gmail.com
+            </p>
           </div>
           <div className="flex items-center space-x-5 justify-center  ">
             <MapPinIcon className="h-7 w-7 animate-pulse text-[#f7ab0a]  " />
             <p className="font-semibold text-xl md:text-4xl">Lagos,Nigeria</p>
           </div>
         </div>
-
-        <form className="w-fit flex flex-col space-y-2 mx-auto">
-          <div className="flex space-x-2">
-            <input className="contactInput" type="text" />
-            <input className="contactInput" type="text" />
-          </div>
-          <input className="contactInput" type="text" />
-          <textarea className="contactInput" />
-          <button className="bg-[#f7ab0a] py-3 px-2 rounded-md font-bold text-black text-lg">Submit</button>
-        </form>
+        <div className="w-full">
+          <form className=" w-[85%] flex flex-col space-y-2 mx-auto">
+            <div className="flex space-x-2">
+              <input className="contactInput w-[50%]" placeholder="Name"  type="text" />
+              <input className="contactInput w-[50%]"  placeholder="Email"  type="text" />
+            </div>
+            <input className="contactInput" type="text" placeholder="Subject"  />
+            <textarea className="contactInput"  placeholder="Message" />
+            <button className="bg-[#f7ab0a] py-3 px-2 rounded-md font-bold text-black text-lg">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );
