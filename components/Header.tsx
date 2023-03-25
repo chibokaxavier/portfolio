@@ -38,6 +38,11 @@ const Header = (props: Props) => {
           fgColor="gray"
           bgColor="transparent"
         />
+        <SocialIcon
+          url="https://github.com/chibokaxavier"
+          fgColor="gray"
+          bgColor="transparent"
+        />
       </motion.div>
       <Link href='#contactme'>
       <motion.div
