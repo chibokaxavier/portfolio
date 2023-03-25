@@ -18,7 +18,7 @@ const ContactMe = (props: Props) => {
     formState: { errors },
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href=`mailto:chibokaxavier@gmail.com?subject=${formData.subject}&body=Hi Emmanuel, my name is ${formData.name}. ${formData.message} (${formData.email})`
+    window.location.href = `mailto:chibokaxavier@gmail.com?subject=${formData.subject}&body=Hi Emmanuel, my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
     <div className="h-screen flex flex-col relative text-center md:text-left px-10 md:flex-row max-w-7xl justify-evenly items-center mx-auto">

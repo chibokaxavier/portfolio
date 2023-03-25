@@ -5,11 +5,12 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-scroll snap-y snap-mandatory z-0">
+      <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory z-0  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <Head>
           <title>Xavier Portfolio</title>
         </Head>
@@ -29,6 +30,14 @@ export default function Home() {
         <section id="contactme" className="snap-start">
           <ContactMe />
         </section>
+
+        <Link href='#hero'>
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <img className="w-10 h-10 rounded-full grayscale hover:grayscale-0" src="https://cdn.pixabay.com/photo/2023/03/17/16/55/man-7859085_640.jpg" />
+          </div>
+        </footer>
+        </Link>
       </div>
     </>
   );
