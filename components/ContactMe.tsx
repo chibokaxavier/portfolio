@@ -11,7 +11,7 @@ const ContactMe = (props: Props) => {
       </h2>
 
       <div className="flex flex-col space-y-6 mt-[100px]">
-        <h4 className="font-semibold text-center text-xl md:text-4xl  ">
+        <h4 className="font-semibold text-center text-2xl md:text-4xl  ">
           I have got just what you need.{" "}
           <span className=" underline decoration-[#f7ab0a]">Lets Talk</span>
         </h4>
@@ -33,7 +33,7 @@ const ContactMe = (props: Props) => {
           </div>
         </div>
         <div className="w-full">
-          <form className=" w-[85%] flex flex-col space-y-2 mx-auto">
+          <form className=" w-[95%] flex flex-col space-y-2 mx-auto">
             <div className="flex space-x-2">
               <input className="contactInput w-[50%]" placeholder="Name"  type="text" />
               <input className="contactInput w-[50%]"  placeholder="Email"  type="text" />
