@@ -32,8 +32,17 @@ const projects = [
         percent: "85%",
         desc: 'An Instagram clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
         title:' Instagram Clone',
-        technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png","firebase.png"],
+        technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png","/images/firebase.png"],
         link:"https://instagram-2-0-seven.vercel.app"
+      },
+      {
+        id: 4,
+        img: "/images/facebook-preview.jpg",
+        percent: "85%",
+        desc: 'A Facebbok clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
+        title:' Instagram Clone',
+        technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png","/images/firebase.png"],
+        link:"https://facebook-2-0-sandy.vercel.app/"
       }
   ];
   export default projects;
