@@ -28,7 +28,7 @@ const projects = [
       },    
       {
         id: 4,
-        img: "/images/instagram-preview.jpg",
+        img: "/images/instargram-preview.jpg",
         percent: "85%",
         desc: 'An Instagram clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
         title:' Instagram Clone',
