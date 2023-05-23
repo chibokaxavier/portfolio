@@ -26,5 +26,14 @@ const projects = [
         technologies:['/images/tailwind.png','/images/next.jpg',"/images/typescript.png",],
         link:"https://regal-e-commerce.vercel.app/"
       },    
+      {
+        id: 4,
+        img: "/images/instagram-preview.jpg",
+        percent: "85%",
+        desc: 'An Instagram clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
+        title:' Instagram Clone',
+        technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png","firebase.png"],
+        link:"https://instagram-2-0-seven.vercel.app"
+      }
   ];
   export default projects;
