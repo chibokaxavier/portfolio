@@ -40,9 +40,19 @@ const projects = [
         img: "/images/facebook-preview.jpg",
         percent: "85%",
         desc: 'A Facebbok clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
-        title:' Instagram Clone',
+        title:' Facebook Clone',
         technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png","/images/firebase.png"],
         link:"https://facebook-2-0-sandy.vercel.app/"
-      }
+      },
+      {
+        id: 6,
+        img: "/images/hulu.jpg",
+        percent: "85%",
+        desc: 'A hulu inspired static site, using tmdb api',
+        title:' hulu ',
+        technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png"],
+        link:"https://hulu-peach-three.vercel.app/"
+      },
+
   ];
   export default projects;
