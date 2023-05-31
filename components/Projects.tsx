@@ -44,11 +44,10 @@ const Projects = (props: Props) => {
 
               <div className="px-0 md:px-10  max-w-6xl space-y-4 lg:space-y-10  ">
                 <h4
-                  className=" text-2xl md:text-4xl font-semibold text-center uppercase
-                 "
+                  className=" text-2xl md:text-4xl font-semibold text-center uppercase text-gray-600
+                 " 
                 >
-                  <span className=""></span>
-                  {oneProject.title}
+                  {oneProject.title} <span className="text-xs animate-pulse"> ({oneProject.id}/{project.length}) </span>
                 </h4>
                 <div className="flex justify-evenly">
                   {oneProject.technologies.map((tech) => {
@@ -57,12 +56,12 @@ const Projects = (props: Props) => {
                         key={uuid()}
                         src={tech}
                         alt=""
-                        className="h-10 w-10 lg:w-20 lg:h-20"
+                        className="h-10 w-10 lg:w-20 lg:h-20 rounded-xl"
                       />
                     );
                   })}
                 </div>
-                <p className="text-lg text-center md:text-left font-semibold">
+                <p className="text-lg text-center md:text-left font-semibold italic">
                   {oneProject.desc}
                 </p>
               </div>

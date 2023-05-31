@@ -39,7 +39,7 @@ const projects = [
         id: 5,
         img: "/images/facebook-preview.jpg",
         percent: "85%",
-        desc: 'A Facebbok clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
+        desc: 'A Facebook clone where you can sign in with google, you can upload pictures and so many other cool amazing features',
         title:' Facebook Clone',
         technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png","/images/firebase.png"],
         link:"https://facebook-2-0-sandy.vercel.app/"
