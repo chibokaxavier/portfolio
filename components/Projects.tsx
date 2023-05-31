@@ -21,7 +21,7 @@ const Projects = (props: Props) => {
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x h-[650px]  lg:h-screen snap-mandatory z-20 pt-10 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x h-[650px]  lg:h-screen snap-mandatory z-20 pt-10 scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar">
         {" "}
         {project.map((oneProject, i) => (
           <Link key={uuid()} href={oneProject.link} target="_blank">
