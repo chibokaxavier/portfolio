@@ -48,7 +48,7 @@ const projects = [
         id: 6,
         img: "/images/hulu.jpg",
         percent: "85%",
-        desc: 'A hulu inspired static site, using tmdb api',
+        desc: 'A hulu inspired static site, that displays the latest movies using tmdb api',
         title:' hulu ',
         technologies:['/images/tailwind.png','/images/next.jpg',"/images/javascript.png"],
         link:"https://hulu-peach-three.vercel.app/"
