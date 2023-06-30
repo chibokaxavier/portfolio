@@ -29,9 +29,8 @@ const Skills = (props: Props) => {
         }}
         className="grid md:grid-cols-4 grid-cols-3  gap-5 pt-[100px]"
       >
-
         {skills.map((skill: any) => {
-          return <Skill  key={skill.id} skill={skill} />;
+          return <Skill key={skill.id} skill={skill} />;
         })}
       </motion.div>
     </motion.div>

@@ -35,7 +35,7 @@ const Hero = (props: Props) => {
             {" "}
             <button className="heroButton">About</button>
           </Link>
-        
+
           <Link href="#skills">
             {" "}
             <button className="heroButton">Skills</button>

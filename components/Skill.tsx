@@ -2,15 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 
 type Props = {
-  skill:{
-    img:string,
-    id:string,
-    percent:string
-  }
+  skill: {
+    img: string;
+    id: string;
+    percent: string;
+  };
 };
 
 const Skill = ({ skill }: Props) => {
-     const {img,id,percent} = skill
+  const { img, id, percent } = skill;
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img

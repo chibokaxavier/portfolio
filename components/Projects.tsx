@@ -45,9 +45,13 @@ const Projects = (props: Props) => {
               <div className="px-0 md:px-10  max-w-6xl space-y-4 lg:space-y-10  ">
                 <h4
                   className=" text-2xl md:text-4xl font-semibold text-center uppercase text-gray-600
-                 " 
+                 "
                 >
-                  {oneProject.title} <span className="text-xs animate-pulse"> ({oneProject.id}/{project.length}) </span>
+                  {oneProject.title}{" "}
+                  <span className="text-xs animate-pulse">
+                    {" "}
+                    ({oneProject.id}/{project.length}){" "}
+                  </span>
                 </h4>
                 <div className="flex justify-evenly">
                   {oneProject.technologies.map((tech) => {
